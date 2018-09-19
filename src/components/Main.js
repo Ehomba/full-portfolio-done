@@ -72,8 +72,8 @@ class Main extends React.Component {
                         </form>
                         <ul className="icons">
                           <li><a href="https://github.com/Ehomba" className="icon fa-github"><span className="label">GitHub</span></a>GitHub</li>
-                          <li><a><span>Milesbenovic@gmail.com</span></a></li>
                         </ul>
+                        <a><span>Milesbenovic@gmail.com</span></a>
                         {close}
                       </article>
 
