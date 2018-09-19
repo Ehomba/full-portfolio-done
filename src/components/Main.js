@@ -16,28 +16,28 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Hi! My name is Miles Benovic and I am a full stack developer. I graduated from Texas State University in San Marcos in August of 2015 with a degree in Political Science. I'm a musician, avid reader, gamer, and love to learn new things! By the way, check out my <a href="https://github.com/Ehomba">awesome work</a>.</p>
+          <p>Hi! My name is Miles Benovic and I am a full stack developer. I graduated from Texas State University in San Marcos in August of 2015 with a degree in Political Science. I'm a musician, avid reader, gamer, and love to learn new things! By the way, check out my <a href="https://github.com/Ehomba" target="_blank">awesome work</a>.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <div><p>You can check out my resume <a href="https://drive.google.com/file/d/1PiKfpmuDr5fFs3suVItYGJkKjsTmOx3-/view?usp=sharing">here.</a></p></div>
+          <div><p>You can check out my resume <a href="https://drive.google.com/file/d/1PiKfpmuDr5fFs3suVItYGJkKjsTmOx3-/view?usp=sharing" target="_blank">here.</a></p></div>
           <div class="work">
             <iframe src="https://giphy.com/embed/7wwUXU4nsMI80" width="100" height="100"></iframe><p><a href="https://giphy.com/gifs/knight-7wwUXU4nsMI80"></a></p>
 
-            <h3><a href="https://ehomba.github.io/unit-4-game/">RPG Game</a><br/><a href="https://github.com/Ehomba/unit-4-game">Github Code</a></h3>
+            <h3><a href="https://ehomba.github.io/unit-4-game/" target="_blank">RPG Game</a><br/><a href="https://github.com/Ehomba/unit-4-game" target="_blank">Github Code</a></h3>
           </div>
           <div class="work">
             <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/ad/Small-shakin-it.gif/revision/latest?cb=20121210211519" alt="Smiley face" height="42" width="42"></img>
 
-            <h3> <a href="https://ehomba.github.io/gifTastic/"> GifTastic </a><br/><a href="https://github.com/Ehomba/gifTastic">Github Code</a></h3>
+            <h3> <a href="https://ehomba.github.io/gifTastic/" target="_blank"> GifTastic </a><br/><a href="https://github.com/Ehomba/gifTastic" target="_blank">Github Code</a></h3>
           </div>
           <div class="work">
             <iframe src='https://gfycat.com/ifr/ShadyUnawareHairstreak' width='100' height='100'></iframe><p> <a href="https://gfycat.com/gifs/detail/ShadyUnawareHairstreak"></a></p>
 
-            <h3> <a href="https://ehomba.github.io/trainTime/"> Train Time </a> <br/><a href="https://github.com/Ehomba/trainTime">Github Code</a> </h3>
+            <h3> <a href="https://ehomba.github.io/trainTime/" target="_blank"> Train Time </a> <br/><a href="https://github.com/Ehomba/trainTime" target="_blank">Github Code</a> </h3>
           </div>
           {close}
         </article>
@@ -52,7 +52,7 @@ class Main extends React.Component {
 
                       <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
                         <h2 className="major">Contact</h2>
-                        <form method="post" name="contact" netlify-data="true" action="/Main.js">
+                        <form method="post" name="contact" action="mailto:milesbenovic@gmail.com">
                           <div className="field half first">
                             <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" />
