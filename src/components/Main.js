@@ -23,7 +23,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <div><p>You can check out my resume <a href="https://drive.google.com/file/d/1bkEia-QqEo5sxqxSvj23pDIGqMoCous6/view?usp=sharing">here.</a></p></div>
+          <div><p>You can check out my resume <a href="https://drive.google.com/file/d/1PiKfpmuDr5fFs3suVItYGJkKjsTmOx3-/view?usp=sharing">here.</a></p></div>
           <div class="work">
             <iframe src="https://giphy.com/embed/7wwUXU4nsMI80" width="100" height="100"></iframe><p><a href="https://giphy.com/gifs/knight-7wwUXU4nsMI80"></a></p>
 
@@ -72,6 +72,7 @@ class Main extends React.Component {
                         </form>
                         <ul className="icons">
                           <li><a href="https://github.com/Ehomba" className="icon fa-github"><span className="label">GitHub</span></a>GitHub</li>
+                          <li><a><span className="label">Milesbenovic@gmail.com</span></a>Milesbenovic@gmail.com</li>
                         </ul>
                         {close}
                       </article>
