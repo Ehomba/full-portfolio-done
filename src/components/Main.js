@@ -46,7 +46,7 @@ class Main extends React.Component {
                         <h2 className="major">About</h2>
                         <span className="image main"><img src={pic03} alt="" /></span>
                         <p>I've been working in Customer Service and Technical Support for over 10 years for multiple companies. I've worked Technical Support for companies such as Google and Apple, and worked Sales/Customer support for companies like CenturyLink and Progressive Insurance.</p>
-                        <p>Graduated from UT Full-Stack developer camp in October 2018 where we worked on multiple large projects and learned multiple languages such as JavaScript, Jquery, MySql, MongoDB,ReactJS and more. I am always expanding my programming language skills and working on new projects all the time!</p>
+                        <p>Graduated from UT Full-Stack developer camp in October 2018 where we worked on multiple large projects and learned multiple languages such as JavaScript, Jquery, MySql, MongoDB, ReactJS and more. I am always expanding my programming language skills and working on new projects all the time!</p>
                         {close}
                       </article>
 
@@ -71,7 +71,7 @@ class Main extends React.Component {
                           </ul>
                         </form>
                         <ul className="icons">
-                          <li><a href="https://github.com/Ehomba" className="icon fa-github"><span className="label">GitHub</span></a>GitHub</li>
+                          <li><a href="https://github.com/Ehomba" className="icon fa-github" target="_blank"><span className="label">GitHub</span></a>GitHub</li>
                         </ul>
                         <a><span>Milesbenovic@gmail.com</span></a>
                         {close}
