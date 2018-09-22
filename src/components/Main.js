@@ -22,8 +22,8 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
           <div><p>You can check out my resume <a href="https://drive.google.com/file/d/1PiKfpmuDr5fFs3suVItYGJkKjsTmOx3-/view?usp=sharing" target="_blank">here.</a></p></div>
+          <div style="display:flex">
           <div class="work">
             <iframe src="https://giphy.com/embed/7wwUXU4nsMI80" width="100" height="100"></iframe><p><a href="https://giphy.com/gifs/knight-7wwUXU4nsMI80"></a></p>
 
@@ -38,6 +38,7 @@ class Main extends React.Component {
             <iframe src='https://gfycat.com/ifr/ShadyUnawareHairstreak' width='100' height='100'></iframe><p> <a href="https://gfycat.com/gifs/detail/ShadyUnawareHairstreak"></a></p>
 
             <h3> <a href="https://ehomba.github.io/trainTime/" target="_blank"> Train Time </a> <br/><a href="https://github.com/Ehomba/trainTime" target="_blank">Github Code</a> </h3>
+          </div>
           </div>
           {close}
         </article>
